@@ -6,7 +6,8 @@ public class vksaver {
 		// далее переименование фј…Ћќв и перемещение в созданную папку
 		
 		//creating a folder
-		file(/storage/sdcrd1/).mkdir(vkmusicmp3);
+		File dir1 = new File("//storage//sdcard1//VKmusic");
+		boolean created = dir1.mkdir();
 		//Renaming and moving files to created path
 	}
 
